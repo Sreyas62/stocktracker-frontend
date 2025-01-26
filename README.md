@@ -12,7 +12,7 @@ This project is a **portfolio tracker** built using **Vite**, **React**, and **T
 
 ## Assumptions and Limitations
 
-- **Backend API:** The backend API is assumed to be available at `https://stocktracker-backend-2zve.onrender.com/api/stocks`.
+- **Backend API:** The backend API is assumed to be available at `https://stocktracker-backend-2zve.onrender.com/api/stocks` or at `http://localhost:8080/api/stocks`.
 - **Default User:** No user authentication is implemented; all operations are performed under a default user ID.
 - **Educational Purpose:** The application is for educational purposes and may not be production-ready without further enhancements.
 
@@ -40,7 +40,11 @@ npm install
 Create a `.env` file in the root directory and add the following environment variables:
 
 ```env
-VITE_API_URL=https://stocktracker-backend-2zve.onrender.com/api
+VITE_API_URL=http://localhost:8080/api/stocks
+```
+or
+```env
+VITE_API_URL=https://stocktracker-backend-2zve.onrender.com/api (hosted)
 ```
 
 ### 4. Run the Development Server
@@ -60,8 +64,8 @@ Open your browser and navigate to:
 
 ## Links
 
-- **Deployed Application:** [https://your-deployed-app-url](https://your-deployed-app-url)
-- **Live API Documentation:** [https://your-api-docs-url](https://your-api-docs-url)
+- **Deployed Application:** [https://stocktracker-frontend-sigma.vercel.app/](https://stocktracker-frontend-sigma.vercel.app/)
+- **Live API Documentation:** [https://drive.google.com/file/d/1B0WXa9sogO61KtRsKJqS_YopkHutPNRA/view?usp=sharing](https://drive.google.com/file/d/1B0WXa9sogO61KtRsKJqS_YopkHutPNRA/view?usp=sharing)
 
 ---
 
